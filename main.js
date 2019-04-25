@@ -1,6 +1,7 @@
-const lightboxImages = document.querySelectorAll(
-  '.image-modal-content span img'
-);
+// all images inside the image modal content class
+const lightboxImages = document.querySelectorAll('.image-modal-content img');
+
+// dynamically selects all elements inside modal popup
 const modalElement = element =>
   document.querySelector(`.image-modal-popup ${element}`);
 
@@ -14,6 +15,7 @@ document.addEventListener('click', () => {
 
 const modalPopup = document.querySelector('.image-modal-popup');
 
+// loops over each modal content img and adds click event functionality
 lightboxImages.forEach(img => {
   const data = img.dataset;
   img.addEventListener('click', e => {
