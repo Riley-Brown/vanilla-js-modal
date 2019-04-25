@@ -2,6 +2,8 @@
 
 ### Simple modal built in ~30 lines of vanilla JS
 
+[Click here for live code pen demo](https://codepen.io/RileyB/full/XQyaXy)
+
 ![Modal](readme.gif)
 
 # Usage:
