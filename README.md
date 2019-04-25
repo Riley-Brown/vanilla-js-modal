@@ -9,16 +9,18 @@
 All you need is the code from the `main.js` and the following HTML structure
 
 ```html
-  <div class="modal-content-wrapper">
-    <div class="image-modal-content">
-        <img src="img/placeholder-1.jpg"
-        data-title="My Cool Title"
-        data-description="This is a super cool description"
-        data-url="https://riley.gg/"
-        data-repo="https://github.com/Riley-Brown" alt="Vanilla JS Modal">
-      </span>
-    </div>
+<div class="modal-content-wrapper">
+  <div class="image-modal-content">
+    <img
+      src="img/placeholder-1.jpg"
+      data-title="My Cool Title"
+      data-description="This is a super cool description"
+      data-url="https://riley.gg/"
+      data-repo="https://github.com/Riley-Brown"
+      alt="Vanilla JS Modal"
+    />
   </div>
+</div>
 ```
 
 This div `.modal-content-wrapper` will hold the content you want inside the modal on click. Each individual item must be inside the `.image-modal-content` class.
