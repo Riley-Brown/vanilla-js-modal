@@ -6,7 +6,7 @@
 
 # Usage:
 
-All you need is the code from the `main.js` and the following HTML structure
+All you need is the code from the `style.css`, `main.js` and the following HTML structure
 
 ```html
 <div class="modal-content-wrapper">
@@ -24,6 +24,29 @@ All you need is the code from the `main.js` and the following HTML structure
 ```
 
 This div `.modal-content-wrapper` will hold the content you want inside the modal on click. Each individual item must be inside the `.image-modal-content` class.
+
+You will also need this div which is the actual modal popup and content inside of it
+
+```html
+<div class="image-modal-popup">
+  <div class="wrapper">
+    <span>&times;</span>
+    <img src="" alt="Image Modal" />
+    <div class="description">
+      <h1>This is placeholder content</h1>
+      <p>This content will be overwritten when the modal opens</p>
+      <a href="#" target="_blank" rel="noopener noreferrer">View Cool Link</a>
+      <a
+        href="#"
+        class="secondary-link"
+        target="_blank"
+        rel="noopener noreferrer"
+        >View Another Link</a
+      >
+    </div>
+  </div>
+</div>
+```
 
 HTML5 data attributes are being used for the dynamic image info such as `data-title` and `data-description`. If you don't want these extra properties simply remove the following from the `main.js` file:
 
