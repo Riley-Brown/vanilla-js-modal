@@ -15,6 +15,16 @@
   margin-right: 20px;
   margin-bottom: 40px;
 }
+@media (max-width: 992px) {
+  .modal-content-wrapper .image-modal-content {
+    flex: 0 0 45%;
+  }
+}
+@media (max-width: 550px) {
+  .modal-content-wrapper .image-modal-content {
+    flex: 0 0 100%;
+  }
+}
 .modal-content-wrapper .image-modal-content:hover {
   transform: scale(1.03);
   transition: 300ms ease-in;
